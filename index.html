@@ -17,9 +17,23 @@
 </head>
 <body>
 	<header class="bg-primary d-flex flex-column justify-content-center align-items-center flex-wrap text-center" id="top">
-		<h1>JETRUSON GONZALGO</h1>
+		<h1><b>JETRUSON GONZALGO</b></h1>
 		<h4>A WEB DEVELOPER</h3>
 		<p>COOL THINGS ARE ABOUT TO UNFOLD</p>
+		<div class="d-flex justify-content-center px-5">
+			<a href="https://www.facebook.com/Jet.Gonzalgo/" target="_blank">
+				<i class="fa-brands fa-facebook socialsIcon"></i>
+			</a>
+			<a href="https://www.instagram.com/jet_jeeeeet/" target="_blank">
+				<i class="fa-brands fa-instagram socialsIcon"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/jetruson-gonzalgo-888100114/" target="_blank">
+				<i class="fa-brands fa-linkedin socialsIcon"></i>
+			</a>
+			<a href="https://gitlab.com/gonzalgojet" target="_blank">
+				<i class="fa-brands fa-gitlab socialsIcon"></i>
+			</a>
+		</div>
 	</header>
 	<!-- start of navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -31,7 +45,7 @@
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 	    <ul class="navbar-nav ml-auto pr-5">
 	      <li class="nav-item">
-	        <a class="nav-link" href="#intro">HOME</a>
+	        <a class="nav-link" href="#top">HOME</a>
 	      </li>
 	      <li class="nav-item">
 	        <a class="nav-link" href="#intro">ABOUT</a>
@@ -52,28 +66,77 @@
 	<!-- start of main content -->
 	<main class="container-fluid">
 		<!-- start of about me -->
-		<section class="row text-center flex-column justify-content-center align-items-center"  id="intro">
-			<h2>ABOUT JET</h2>
-			<img src="">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
+		<section class="row align-items-center mt-5 flex-column jumbotron" id="intro">
+			<div class="col-md-2">
+				<img src="./images/profile.jpg" class="img-fluid rounded-circle mt-5 border border-dark">
+			</div>
+			<div class="col-md-4 text-center">
+				<h2 class="mt-4 mb-2">ABOUT ME</h2>
+			</div>
+			<div class="col-md-6 text-center">
+				<p>
+					Enthusiastic individual eager to contribute to team success through hard work, attention to detail and excellent organizational skills. Clear understanding of tasks given. Motivated to learn, grow and excel in every way possible.
+				</p>
+			</div>
 		</section>
 		<!-- start of project -->
-		<section class="row" id="project">
-			
+		<section class="row my-5 jumbotron" id="project">
+			<div class="mx-auto">
+				<h2 class="text-center col my-3">PROJECTS</h2>
+				<div class="card-deck text-center">
+				  <div class="card">
+				  	<a href="#">
+				    	<img src="https://images.pexels.com/photos/808510/pexels-photo-808510.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="Tribute Img">
+				    </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Tribute Page</h5>
+				    </div>
+				  </div>
+				  <div class="card">
+				  	<a href="#">
+				    	<img src="https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+				    </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Product Landing Page</h5>
+				    </div>
+				  </div>
+				  
+				  <div class="card">
+				  	<a href="#">
+				    	<img src="https://images.pexels.com/photos/235734/pexels-photo-235734.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+				    </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Survey Form Page</h5>
+				    </div>
+				  </div>
+				  
+				  <div class="card">
+				    <a href="#top">
+				    	<img src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+				    </a>
+				    <div class="card-body">
+				    	<h5 class="card-title">Personal Portfolio Page</h5>
+				    </div>
+				  </div>
+				  
+				  <div class="card">
+				  	<a href="#">
+				    	<img src="https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="card-img-top" alt="...">
+				    </a>
+				    <div class="card-body">
+				      <h5 class="card-title">Advertisments</h5>
+				    </div>
+				  </div>
+
+				</div>
+			</div>
 		</section>
 		<!-- start of tools -->
-		<section id="tools">
-			<h2 class="text-center my-5">TOOLS I USED</h2>
-			<div class="row">	
-				<div class="col-md-4 border border-dark">
-					<h3 class="text-center my-3">FRONT END</h3>
+		<div id="bgimg"></div>
+		<section id="tools" class="row jumbotron">
+			<h2 class="text-center my-5 col-12 text-dark">TOOLS I USED</h2>
+				<div class="col-md-4">
+					<h3 class="text-center py-3">FRONT END</h3>
 					<div class="text-center flex-wrap">
 						<img src="./images/logo-html5.png">
 						<img src="./images/logo-css3.png">
@@ -82,19 +145,22 @@
 					<p>
 						The front-end is built using a combination of technologies such as Hypertext Markup Language (HTML), JavaScript and Cascading Style Sheets (CSS). Front-end developers design and construct the user experience elements on the web page or app including buttons, menus, pages, links, graphics and more.
 					</p>
-
 				</div>
-				<div class="col-md-4 border border-dark">
-					<h3 class="my-3 text-center">MERN Technology</h3>
+
+				<div class="col-md-4">
+					<h3 class="py-3 text-center">MERN Technology</h3>
 					<div class="text-center flex-wrap">
 						<img src="./images/logo-mongodb.png">
 						<img src="./images/logo-expressjs.png">
 						<img src="./images/logo-react.png">
 						<img src="./images/logo-nodejs.png">
 					</div>
+					<p>
+						MERN stack is a web development framework. It consists of MongoDB, ExpressJS, ReactJS, and NodeJS as its working components.
+					</p>
 				</div>
-				<div class="col-md-4 border border-dark">
-					<h3 class="my-3 text-center">Other Tools</h3>
+				<div class="col-md-4">
+					<h3 class="py-3 text-center">Other Tools</h3>
 					<div class="text-center flex-wrap">
 						<img src="./images/logo-heroku.png">
 						<img src="./images/logo-git.png">
@@ -102,18 +168,24 @@
 						<img src="./images/logo-postman.png">
 						<img src="./images/logo-gitlab-ci-cd.png">
 					</div>
+					<p class="text-center">Heroko | Git | SublimeText 3 | Postman | Gitlab</p>
 				</div>
-			</div>
 		</section>
-		<section class="row" id="contact">
-			<div class="mapouter col-md-6">
-				<h2 class="text-center my-5">My Address</h2>
+
+		<!-- contact section -->
+		<section class="row justify-content-center jumbotron" id="address">
+			<div class="mapouter flex-column">
+				<h2 class="text-center mt-5 bg-primary text-white">MY ADDRESS</h2>
+				<p class="text-center my-3">15 Albany, Brgy. Silangan Cubao, Quezon City</p>
 				<div class="gmap_canvas">
 					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=15,%20albany&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 				</div>
 			</div>
-			<div class="col-md-6">
-				<h2 class="text-center my-5">Message Us</h2>
+		</section>
+		<section class="row" id="contact">
+			<div class="flex-column col">
+				<div class="p-5 m-5" id="formbackground">
+				<h2 class="mb-5">Message Me</h2>
 				<form>
 					<div class="form-group">
 						<label for="txt-name">Name:</label>
@@ -125,12 +197,15 @@
 					</div>
 					<div>
 						<label for="txt-message">Message:</label>
-						<textarea id="txt-message" class="form-control" rows="3"></textarea>
+						<textarea id="txt-message" class="form-control" rows="3" placeholder="Enter your Message"></textarea>
 					</div>
-					<button type="submit" class="btn btn-block btn btn-primary">
-						Submit
+					<button type="submit" class="btn btn-block btn btn-primary my-3">
+						Send Message
 					</button>
 				</form>
+				<p class="mt-5">Contact No.: +63 915 994 5151</p>
+				<p>Email Address: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gonzalgojet@gmail.com" target="_blank">gonzalgojet@gmail.com</a></p>
+				</div>
 			</div>
 		</section>
 	</main>
