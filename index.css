@@ -1,0 +1,48 @@
+* {
+	font-family: 'Mulish', sans-serif;
+	
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#top {
+	height: 100vh;
+}
+
+main section {
+	height: 100vh;
+}
+
+/*#intro {
+	height: 100vh;
+}
+
+#projects {
+	height: 100vh;
+}
+
+#tools {
+	height: 100vh;
+}
+*/
+#tools img {
+	width: 80px;
+}
+
+
+/*#contact {
+	height: 100vh;
+}*/
+
+#gmap_canvas {
+	height: 80vh;
+	width: 100%;
+}
+
+.fa-icons {
+	color: white;
+	margin: 1rem;
+}
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jet's Portfolio</title>
+	<!-- font awesome icons -->
+	<script src="https://kit.fontawesome.com/a396bf5ae3.js" crossorigin="anonymous"></script>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans&family=Smooch+Sans&display=swap" rel="stylesheet">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- external CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<header class="bg-primary d-flex flex-column justify-content-center align-items-center flex-wrap text-center" id="top">
+		<h1>JETRUSON GONZALGO</h1>
+		<h4>A WEB DEVELOPER</h3>
+		<p>COOL THINGS ARE ABOUT TO UNFOLD</p>
+	</header>
+	<!-- start of navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+	  <a class="navbar-brand" href="#top">JET</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto pr-5">
+	      <li class="nav-item">
+	        <a class="nav-link" href="#intro">HOME</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#intro">ABOUT</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#project">PROJECTS</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#tools">TOOLS</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#contact">CONTACT</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+	<!-- end of navbar -->
+	<!-- start of main content -->
+	<main class="container-fluid">
+		<!-- start of about me -->
+		<section class="row text-center flex-column justify-content-center align-items-center"  id="intro">
+			<h2>ABOUT JET</h2>
+			<img src="">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+		<!-- start of project -->
+		<section class="row" id="project">
+			
+		</section>
+		<!-- start of tools -->
+		<section id="tools">
+			<h2 class="text-center my-5">TOOLS I USED</h2>
+			<div class="row">	
+				<div class="col-md-4 border border-dark">
+					<h3 class="text-center my-3">FRONT END</h3>
+					<div class="text-center flex-wrap">
+						<img src="./images/logo-html5.png">
+						<img src="./images/logo-css3.png">
+						<img src="./images/logo-javascript.png">						
+					</div>
+					<p>
+						The front-end is built using a combination of technologies such as Hypertext Markup Language (HTML), JavaScript and Cascading Style Sheets (CSS). Front-end developers design and construct the user experience elements on the web page or app including buttons, menus, pages, links, graphics and more.
+					</p>
+
+				</div>
+				<div class="col-md-4 border border-dark">
+					<h3 class="my-3 text-center">MERN Technology</h3>
+					<div class="text-center flex-wrap">
+						<img src="./images/logo-mongodb.png">
+						<img src="./images/logo-expressjs.png">
+						<img src="./images/logo-react.png">
+						<img src="./images/logo-nodejs.png">
+					</div>
+				</div>
+				<div class="col-md-4 border border-dark">
+					<h3 class="my-3 text-center">Other Tools</h3>
+					<div class="text-center flex-wrap">
+						<img src="./images/logo-heroku.png">
+						<img src="./images/logo-git.png">
+						<img src="./images/logo-sublime-text-3.png">
+						<img src="./images/logo-postman.png">
+						<img src="./images/logo-gitlab-ci-cd.png">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="row" id="contact">
+			<div class="mapouter col-md-6">
+				<h2 class="text-center my-5">My Address</h2>
+				<div class="gmap_canvas">
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=15,%20albany&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h2 class="text-center my-5">Message Us</h2>
+				<form>
+					<div class="form-group">
+						<label for="txt-name">Name:</label>
+						<input type="text" name="name" id="txt-name" placeholder="Enter your Full Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="txt-email">Email:</label>
+						<input type="email" name="email" id="txt-email" placeholder="Enter your Email" class="form-control">
+					</div>
+					<div>
+						<label for="txt-message">Message:</label>
+						<textarea id="txt-message" class="form-control" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-block btn btn-primary">
+						Submit
+					</button>
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- end of main content -->
+	<!-- footer -->
+	<footer class="p-2 bg-primary mt-5">
+		<p class="text-center text-white">Jet Gonzalgo's Porfolio</p>
+		<p class="text-center text-white">
+			&copy; All right reserved 2022
+		</p>
+		<div class="d-flex justify-content-center px-5">
+			<a href="https://www.facebook.com/Jet.Gonzalgo/" target="_blank">
+				<i class="fa-brands fa-facebook fa-icons"></i>
+			</a>
+			<a href="https://www.instagram.com/jet_jeeeeet/" target="_blank">
+				<i class="fa-brands fa-instagram fa-icons"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/jetruson-gonzalgo-888100114/">
+				<i class="fa-brands fa-linkedin fa-icons"></i>
+			</a>
+			<a href="https://gitlab.com/gonzalgojet">
+				<i class="fa-brands fa-gitlab fa-icons"></i>
+			</a>
+		</div>
+	</footer>
+	<!-- bootstrap JS dependencies -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
