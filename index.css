@@ -27,12 +27,31 @@ header {
 	height: 100vh;
 }
 
+/*info*/
+#profile {
+	filter: blur(5px);
+}
+
 /*projects*/
 }
 #projects {
 	height: 100vh;
 }
 
+.card {
+}
+
+.card:hover {
+	animation-name: projectani;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+}
+
+@keyframes projectani {
+	0% {bottom: 0px;}
+	50% {bottom: 50px;}
+	100% {bottom: 0px;}
+}
 
 
 /*tools*/
@@ -79,7 +98,7 @@ section div h3 {
 /*contacts*/
 
 #contact {
-	background-image: url(https://images.pexels.com/photos/7135082/pexels-photo-7135082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-image: url(https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
