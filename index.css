@@ -64,6 +64,18 @@ section div h3 {
 	color: white;
 }
 
+@media (min-width: 320px) {
+	#tools #frontend p {
+		color: black;
+	}
+}
+
+@media (min-width: 768px) {
+	#tools #frontend p {
+		color: white;
+	}
+}
+
 /*contacts*/
 
 #contact {
