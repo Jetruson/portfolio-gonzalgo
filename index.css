@@ -15,6 +15,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: white;
+	background-attachment: fixed;
 }
 
 .socialsIcon {
@@ -34,6 +35,15 @@ header {
 
 #profile:hover {
 	filter: none;
+}
+
+#intro {
+	background-image: url(https://images.pexels.com/photos/1605325/pexels-photo-1605325.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+
 }
 
 /*projects*/
