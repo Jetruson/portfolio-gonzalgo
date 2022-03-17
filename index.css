@@ -59,13 +59,6 @@ header {
 	filter: blur(-8px);
 }
 
-
-/*#tools {
-	background-color: rgb(0, 0, 0);
-	background-color: rgba(0,0,0, 0.4);
-	height: 100%;
-}*/
-
 section div h3 {
 	background-color: green;
 	color: white;
@@ -73,16 +66,25 @@ section div h3 {
 
 /*contacts*/
 
+#contact {
+	background-image: url(https://images.pexels.com/photos/7135082/pexels-photo-7135082.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 #gmap_canvas {
 	height: 80vh;
-	width: 1000px;
+	width: 100%;
 	padding: 2rem;
 	border: 2px solid black;
+	background-color: #D18EEA;
 }
 
 #adress {
-	background-color: transparent;
-	background-image: ;
+	background-image: url(https://images.pexels.com/photos/6160163/pexels-photo-6160163.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .fa-icons {
@@ -91,9 +93,11 @@ section div h3 {
 	font-size: 2rem;
 }
 
-#formbackground {
-	background-color: red;
-
+#message {
+	background-image: url(https://images.pexels.com/photos/7130564/pexels-photo-7130564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 
